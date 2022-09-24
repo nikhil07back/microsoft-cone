@@ -1,0 +1,327 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+.left
+{
+	float: left;
+}
+.right
+{
+	float: right;
+}
+.clear
+{
+	clear: both;
+}
+ul
+{
+	list-style: none;
+}
+a
+{
+	text-decoration: none;
+}
+.container
+{
+	margin: 0px auto;
+	width: 1200px;
+}
+
+#row_one
+{
+	height: 57px;
+	width: 100%;
+}
+#row_one .container .col_one.left
+{
+	padding: 13px 0px 13px 0px;
+}
+#row_one .container .col_one.left img
+{
+	height: 27px;
+}
+#row_one .container .col_two.left
+{
+	padding: 18px 0px 18px 30px;
+}
+#row_one .container .col_two.left a
+{
+	font-family: Calibri (Body);
+	font-size: 17px;
+	padding: 0px 10px 0px 10px;
+}
+#row_one .container .col_two.left a:hover
+{
+	text-decoration: underline;
+}
+#row_one .container .col_three.right ul a li
+{
+	float: left;
+	padding: 14px 10px 14px 10px;
+}
+#row_one .container .col_three.right ul a li.am
+{
+	padding: 19px 10px 19px 10px;
+}
+#row_one .container .col_three.right ul a li img
+{
+	width: 25px;
+}
+
+/* Row Two */
+#row_two
+{
+	background: url('../images/row_two.jpg');
+	height: 600px;
+	width: 100%;
+}
+#row_two .container h1
+{
+	font-family: Segoe UI;
+	padding-top: 200px;
+}
+#row_two .container p
+{
+	font-family: Segoe UI;
+	padding-top: 20px;
+	width: 300px;
+}
+#row_two .container .row
+{
+	padding-top: 20px;
+	width: 300px;
+}
+#row_two .container .row input
+{
+	background: #0067B8;
+	border-top: 1px solid white;
+	color: white;
+	font-family: Segoe UI;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 10px 15px 10px 15px;
+}
+#row_two .container .row .right
+{
+	color: #0067B8;
+	font-size: 17px;
+	font-weight: bold;
+	padding-top: 13px;
+}
+
+/* Row Three */
+#row_three
+{
+	height: 250px;
+}
+#row_three .container
+{
+	margin: 0px auto;
+	padding: 50px 0px 50px 0px;
+	width: 900px;
+}
+#row_three .container .col
+{
+	float: left;
+	width: 225px;
+}
+#row_three .container .col img
+{
+	padding-left: 92.5px;
+}
+#row_three .container .col p
+{
+	padding-top: 10px;
+	text-align: center;
+	width: 225px;
+}
+
+/* Row Four  is thoisss*/
+#row_four .container .col
+{
+
+	float: left;
+	height: 330px;
+	width: 285px;
+}
+#row_four .container .col.space
+{
+	margin-right: 20px;
+}
+
+#row_four .container .col.space h1{
+
+	padding-top:20px ;
+}
+
+
+#row_four .container .col p{
+	padding-top: 10px;
+}
+
+.clear{
+	clear: both;
+}
+
+/* row five  */
+#row_five .container.left img
+{
+	padding-top:40px;
+      padding:20px 0px 0px 60px;
+}
+.clear
+{ 
+   clear:both;
+}
+
+/*row six is the world  */
+
+#row_six .con h1{
+	
+	margin-left: 20px;
+}
+
+
+#row_six .con .item.child{
+
+
+	
+	margin-left: 30px;
+	height: 380px;
+	width: 290px;
+	float: left;
+	
+
+}
+#row_six .con .item.child{
+
+	margin-right: 20px;
+}
+
+#row_six .con .item p{
+	padding-top: 30px;
+}
+
+#row_six .con .item.child h1{
+
+	padding-top: 20px;
+}
+ 
+
+/* row seven small part */
+
+#row_seven {
+	
+	height: 90px;
+	width: 100%;
+	
+}
+
+
+#row_seven .small  h4{
+
+	color: #303841;
+	padding: 20px 0px 10px 30px;
+	
+
+
+
+}
+
+#row_seven .small .lg img{
+
+	
+	height: 40px;
+	width: 30px;
+	float: left;
+	padding-left: 10px;
+}
+
+
+/* footer in the website */
+
+.footer{
+	height: 50vh;
+	width: 100vw; 
+    background-color: #D8D8D8;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: justify ;
+	flex-direction: row;
+	font-family:sans-serif;
+	
+}
+  .footer .row-one {
+
+     font-size: 12px;
+	line-height: 30px;
+	width: 30px;
+	height: 30px;
+	padding-top: 10px;
+}
+.footer .row-two {
+
+	padding-top: 10px;
+   font-size: 12px;
+   line-height: 23px;
+   width: 30px;
+   height: 30px;
+}
+.footer .row-three  {
+
+	padding-top: 10px;
+   font-size: 12px;
+   line-height: 23px;
+   width: 30px;
+   height: 30px;
+}
+.footer .row-four{
+
+	padding-top: 10px;
+   font-size: 12px;
+   line-height: 23px;
+   width: 30px;
+   height: 30px;
+}
+.footer .row-five {
+
+	padding-top: 10px;
+   font-size: 12px;
+   line-height: 23px;
+   width: 30px;
+   height: 30px;
+}
+.footer .row-six {
+
+	padding-top: 10px;
+   font-size: 12px;
+   line-height: 23px;
+   width: 30px;
+   height: 30px;
+}
+
+/* last right */
+
+.last .cont{
+	background-color: #D8D8D8;
+	height: 10vh;
+	width: 100%;
+}
+
+.last .cont ul li {
+	float: right;
+	background-color: #D8D8D8;
+	font-size: 13px;
+	font-family:sans-serif;
+	padding: 0px 14px 0px 14px;
+}
+
+
+
+
+
+
+
+
